@@ -1,15 +1,24 @@
 {
-    "name": "lab_multi",
-    "version": "1.0.0",
-    "description": "Laboratorio B70562 - B77354",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "scss": "node-sass --watch scss -o css --output-style expanded"
-    },
-    "author": "J&R Solutions",
-    "license": "ISC",
-    "dependencies": {
-        "node-sass": "^4.14.1"
-    }
+  "name": "lab_multi",
+  "version": "1.0.0",
+  "description": "Laboratorio B70562 - B77354",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css --output-style expanded"
+  },
+  "author": "J&R Solutions",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSibaja98/JS-Solution.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/JSibaja98/JS-Solution/issues"
+  },
+  "homepage": "https://github.com/JSibaja98/JS-Solution#readme"
 }
