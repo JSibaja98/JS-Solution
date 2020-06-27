@@ -186,7 +186,7 @@ body {
   width: 90px;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1570px) {
   .footer {
     position: absolute;
     bottom: 0;
