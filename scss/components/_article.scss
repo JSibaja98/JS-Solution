@@ -1,0 +1,41 @@
+.article {
+    &--section {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        min-width: 375px;
+    }
+    &--principal {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    &__image {
+        width: 300px;
+    }
+    &__title {
+        margin-top: 1em;
+        font-size: 25px;
+        &--marca {
+            color: $seventh-color;
+            font-size: 20px;
+        }
+    }
+    &__text {
+        margin-top: 10px;
+        &--price {
+            font-size: 16px;
+        }
+        &--span {
+            text-decoration: line-through;
+            color: $secundary-color;
+        }
+    }
+    @media(min-width: 900px) {
+        &--principal {
+            max-width: 860px;
+        }
+    }
+}

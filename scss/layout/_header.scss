@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: $primary-color;
+    min-width: 395px;
+}
+
+.logocontainer {
+    display: flex;
+    &__img {
+        margin: 10px 0;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+@media(min-width: 750px) {
+    .header {
+        flex-direction: row;
+    }
+}

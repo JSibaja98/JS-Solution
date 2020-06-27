@@ -1,0 +1,30 @@
+.footer {
+    margin-top: 20px;
+    background: $terciary-color;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    align-items: center;
+    &__copyright {
+        font-size: 18px;
+        color: white;
+    }
+    &__item {
+        max-width: 90px;
+    }
+    &__img {
+        width: 48px;
+    }
+}
+
+.logo {
+    width: 90px;
+}
+
+@media(min-width: 1500px) {
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    //background: #68C8B5;
+    margin-top: 10px;
+}
