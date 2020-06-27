@@ -38,7 +38,7 @@ body {
 }
 
 .nav {
-  min-width: 370px;
+  min-width: 375px;
 }
 
 .nav--header {
@@ -70,7 +70,8 @@ body {
 }
 
 .nav--subnav .nav__link {
-  padding: 0 20px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .nav__link:hover {
@@ -160,6 +161,7 @@ body {
 }
 
 .footer {
+  text-align: center;
   margin-top: 20px;
   background: #a21864;
   display: flex;
