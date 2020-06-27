@@ -17,7 +17,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   background: rgba(135, 206, 235, 0.5);
-  min-width: 375px;
+  min-width: 370px;
 }
 
 .logocontainer {
@@ -38,7 +38,7 @@ body {
 }
 
 .nav {
-  min-width: 375px;
+  min-width: 370px;
 }
 
 .nav--header {
