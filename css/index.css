@@ -76,7 +76,6 @@ body {
 
 .nav__link:hover {
   text-decoration: underline;
-  color: #a21864;
 }
 
 .nav--subnav {
@@ -188,6 +187,14 @@ body {
 }
 
 @media (min-width: 1500px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+@media (min-height: 1300px) {
   .footer {
     position: absolute;
     bottom: 0;
