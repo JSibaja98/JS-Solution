@@ -1,2 +1,2 @@
 # JS-Solution
-Laboratorio de Multimedios with SCSS
+Laboratorio de Multimedios with SCSS.
